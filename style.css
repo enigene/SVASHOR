@@ -1,0 +1,100 @@
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: gray
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+table > tr {
+    vertical-align: middle;
+}
+
+col {
+    display: table-column
+}
+
+colgroup {
+    display: table-column-group
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: inherit
+}
+
+.tblVar td {
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+}
+
+th {
+    font-weight: bold
+}
+
+caption {
+    display: table-caption;
+    text-align: left;
+    caption-side: top;
+}
+.tblDesc {
+    font-size: 13px;
+}
+.tblStatr th,td {
+    padding: 5px;
+    font-size: 13px;    
+}
+.aa {background-color: rgb(172,172,172)}
+.ba {background-color: rgb(255,153,0)}
+.ca {background-color: rgb(224,0,64)}
+.d1 {background-color: rgb(153,0,255); color: rgb(239,239,239)}
+.d2 {background-color: rgb(210,110,250); color: rgb(239,239,239)}
+.ea {background-color: rgb(153,153,255)}
+.fa {background-color: rgb(0,128,128); color: rgb(239,239,239)}
+.ga {background-color: rgb(255,255,0)}
+.ha {background-color: rgb(127,96,0); color: rgb(239,239,239)}
+.ia {background-color: rgb(153,51,102); color: rgb(239,239,239)}
+.j1 {background-color: rgb(234,153,153)}
+.j2 {background-color: rgb(255,204,204)}
+.ja {background-color: rgb(225,126,231)}
+.ka {background-color: rgb(0,255,0)}
+.m1 {background-color: rgb(255,255,0)}
+.na {background-color: rgb(32,160,64)}
+.oa {background-color: rgb(255,229,153)}
+.r1 {background-color: rgb(0,96,192); color: rgb(239,239,239)}
+.r2 {background-color: rgb(102,153,255)}
+.um {background-color: rgb(85,85,85); color: rgb(239,239,239)}
+.w1 {background-color: rgb(0,255,255)}
+.w2 {background-color: rgb(0,255,255)}
+.w3 {background-color: rgb(0,255,255)}
+.w4 {background-color: rgb(0,255,255)}
+.w5 {background-color: rgb(0,255,255)}
+.xm {background-color: rgb(85,85,85); color: rgb(239,239,239)}
+hr.tblHr {
+	border-top: 1px solid #8c8b8b;
+}
