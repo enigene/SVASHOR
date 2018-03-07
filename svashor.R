@@ -5,6 +5,13 @@
 # variants, and table ASMonColors.txt with color information.
 argv <- commandArgs(T)
 
+packages <- c("xtable",
+              "xml2",
+              "stringr")
+if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
+  install.packages(setdiff(packages, rownames(installed.packages())))  
+}
+
 library("xtable")
 library("xml2")
 library("stringr")
