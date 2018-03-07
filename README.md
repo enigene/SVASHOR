@@ -25,5 +25,3 @@ each HORs, also the directory `AS_HOR_structure` is created, which contains file
 of an individual contigs and files with full HOR maps and statistics for the HOR
 variants.
 
-For example:
-[HOR variants from chromosome 10](example/S1C10H1L.html)
