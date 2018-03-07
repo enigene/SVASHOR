@@ -6,8 +6,8 @@ Before creating a report, you need to get a BED file annotated with HumAS-HMMER.
 
 ## Prerequisites
 The pipeline requires the following components:
-* awk, sed, and other standard unix command-line programs
-* bedtools [bedtools utilities](http://bedtools.readthedocs.io)
+* awk, sed, and other standard unix command-line programs;
+* bedtools [bedtools utilities](http://bedtools.readthedocs.io);
 * R [The R Project](https://www.r-project.org/) with these libraries:
     * xtable
     * xml2
@@ -26,4 +26,4 @@ of an individual contigs and files with full HOR maps and statistics for the HOR
 variants.
 
 For example:
-![HOR variants from chromosome 10](example/S1C10H1L.html)
+[HOR variants from chromosome 10](example/S1C10H1L.html)
