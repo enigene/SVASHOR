@@ -107,7 +107,7 @@ stabs <- cbind(Var=rownames(stabs), stabs)
 
 stabsCaption = paste0("Structural variants of HOR ", HORAbbr, " in ", frag)
 
-colnames(stabs) <- c("Var#","Sequence of monomers in a HOR","Number of copies")
+colnames(stabs) <- c("Var#","Order of monomers","Number of copies")
 
 stabsx <- print.xtable(
   xtable(stabs),
